@@ -11,7 +11,7 @@
 
 <div align="center">
   <br/>
-  <strong>380+ merged pull requests</strong> &nbsp;·&nbsp; <strong>5,300+ passing tests</strong> &nbsp;·&nbsp; <strong>over 57,000 lines</strong> &nbsp;·&nbsp; <strong>320+ modules</strong>
+  <strong>400+ merged pull requests</strong> &nbsp;·&nbsp; <strong>5,500+ passing tests</strong> &nbsp;·&nbsp; <strong>over 60,000+ lines</strong> &nbsp;·&nbsp; <strong>330+ modules</strong>
 </div>
 
 In under a year, working solo on one laptop, I built a control layer that keeps AI coding agents in check. The agents write the code. The architecture, the debugging, and every call about what the system is allowed to trust are mine. Self-taught, in London.
