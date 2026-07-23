@@ -11,7 +11,7 @@
 
 <div align="center">
   <br/>
-  <strong>400+ merged pull requests</strong> &nbsp;·&nbsp; <strong>5,500+ passing tests</strong> &nbsp;·&nbsp; <strong>over 60,000+ lines</strong> &nbsp;·&nbsp; <strong>330+ modules</strong>
+  <strong>410+ merged pull requests</strong> &nbsp;·&nbsp; <strong>6,100+ passing tests</strong> &nbsp;·&nbsp; <strong>62,000+ lines</strong> &nbsp;·&nbsp; <strong>340+ modules</strong>
 </div>
 
 In under a year, working solo on one laptop, I built a control layer that keeps AI coding agents in check. The agents write the code. The architecture, the debugging, and every call about what the system is allowed to trust are mine. Self-taught, in London.
@@ -59,6 +59,22 @@ It isn't safe, because nothing autonomous is. The point is to make the risk smal
   <img src="https://raw.githubusercontent.com/Ourbando/Ourbando/main/assets/divider.svg" width="760" alt="" />
 </div>
 
+### Shipped in public
+
+The big system stays private, but the core idea is now open source. [railward](https://github.com/Ourbando/railward) is a standalone, fail-closed gate for untrusted AI agents that attacks itself and hands you the signed proof:
+
+```
+pip install railward && python -m railward.cli attack
+```
+
+117 of 117 attacks blocked, 0 leaked, and a signed proof.json a stranger can re-verify.
+
+I also work inside other teams' codebases: two of my fixes are merged into [OpenSRE](https://github.com/Tracer-Cloud/opensre), Tracer Cloud's 8,000-star open-source SRE platform, through their full review pipeline.
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Ourbando/Ourbando/main/assets/divider.svg" width="760" alt="" />
+</div>
+
 ### The scar tissue
 
 Every safeguard exists because something got through first.
@@ -71,6 +87,9 @@ Every safeguard exists because something got through first.
 </details>
 <details><summary>a safety check that <strong>ran green while doing nothing</strong></summary>
 <br/>The most dangerous kind of passing: a guard that never actually guarded. The fix was structural, and the full story is better in person.
+</details>
+<details><summary>the agent could <strong>disable its own gate</strong> by editing its wiring</summary>
+<br/>I found this one hunting for it myself: one write to the hook configuration and the gate would silently stop being consulted. The fix makes the wiring something the agent cannot touch without the gate's own permission. A safeguard has to survive its own subject.
 </details>
 
 Ask me about any of them.
