@@ -11,10 +11,10 @@
 
 <div align="center">
   <br/>
-  <strong>410+ merged pull requests</strong> &nbsp;·&nbsp; <strong>6,100+ passing tests</strong> &nbsp;·&nbsp; <strong>62,000+ lines</strong> &nbsp;·&nbsp; <strong>340+ modules</strong>
+  <strong>600+ merged pull requests</strong> &nbsp;·&nbsp; <strong>12,000+ automated tests</strong> &nbsp;·&nbsp; <strong>2,000+ commits</strong>
 </div>
 
-In under a year, working solo on one laptop, I built a control layer that keeps AI coding agents in check. The agents write the code. The architecture, the debugging, and every call about what the system is allowed to trust are mine. Self-taught, in London.
+Since October 2025 I have built a control layer that keeps AI coding agents in check. The agents write the code. The architecture, the debugging, and every call about what the system is allowed to trust are mine. Based in London.
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/Ourbando/Ourbando/main/assets/divider.svg" width="760" alt="" />
@@ -69,7 +69,7 @@ pip install railward && python -m railward.cli attack
 
 117 of 117 attacks blocked, 0 leaked, and a signed proof.json a stranger can re-verify.
 
-I also work inside other teams' codebases: two of my fixes are merged into [OpenSRE](https://github.com/Tracer-Cloud/opensre), Tracer Cloud's 8,000-star open-source SRE platform, through their full review pipeline.
+I also work inside other teams' codebases: two of my fixes are merged into [OpenSRE](https://github.com/Tracer-Cloud/opensre), Tracer Cloud's 12,000+ star open-source SRE platform, through their full review pipeline.
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/Ourbando/Ourbando/main/assets/divider.svg" width="760" alt="" />
@@ -100,7 +100,7 @@ Ask me about any of them.
 
 ### Now
 
-Open to AI-engineering roles, London or remote UK, and I can start immediately (no notice period). It stays private while I turn it into a product, and I am happy to walk a serious party through it live.
+Open to apprenticeships and junior developer roles, London or remote UK, and I can start immediately (no notice period). It stays private while I turn it into a product, and I am happy to walk a serious party through it live.
 
 [ourbando@proton.me](mailto:ourbando@proton.me)
 
