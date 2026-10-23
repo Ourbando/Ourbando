@@ -14,6 +14,8 @@
   <strong>600+ merged pull requests</strong> &nbsp;·&nbsp; <strong>12,000+ automated tests</strong> &nbsp;·&nbsp; <strong>2,000+ commits</strong>
 </div>
 
+**Looking for a software or AI apprenticeship in London.**
+
 Since October 2025 I have built a control layer that keeps AI coding agents in check. The agents write the code. The architecture, the debugging, and every call about what the system is allowed to trust are mine. Based in London.
 
 <div align="center">
@@ -53,7 +55,7 @@ Every run leaves a signed record anyone can re-run and check, on a tamper-eviden
   <strong>It runs air-gapped &nbsp;·&nbsp; on your own hardware &nbsp;·&nbsp; in pure Python &nbsp;·&nbsp; with almost no third-party code</strong>
 </div>
 
-It isn't safe, because nothing autonomous is. The point is to make the risk small, checkable, and provable. The how stays off this page on purpose: it is the part that makes it work, and the part worth protecting.
+It isn't safe, because nothing autonomous is. The point is to make the risk small, checkable, and provable.
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/Ourbando/Ourbando/main/assets/divider.svg" width="760" alt="" />
